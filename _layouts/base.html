@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8"/>
+  <title>{{ page.title | capitalize}} | JamesAn.ca</title>
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.11/jquery-ui.min.js"></script>
+  <script src="js/jquery-timeago-0.9.3.min.js"></script>
+  <script src="js/date-en-CA.js"></script>
+  <script src="js/parse-twitter-text.min.js"></script>
+  <script src="js/page.js"></script>
+  <link rel="stylesheet" media="all" href="css/elements.css"/>
+  <link rel="stylesheet" media="all" href="css/style.css"/>
+  <link rel="stylesheet" media="all" href="css/page.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <!-- Adding "maximum-scale=1" fixes the Mobile Safari auto-zoom bug: http://filamentgroup.com/examples/iosScaleBug/ -->
+</head>
+
+<body lang="en">
+
+{% include header.html %}
+
+<div id="{{ page.id }}" class="hbox">
+  <div id="content" class="boxFlex1">
+    {{ content }}
+  </div>
+  
+  {% if page.aside %}
+    <aside class="boxFlex2 vbox center">
+      {% for item in page.aside %}
+        {% case item %}
+        {% when 'photo' %}
+          <div class="cbox"><img src="images/profile.jpg"/></div>
+        {% when 'twitter' %}
+          <div class="twitter">
+            <h1 class="big">Recent Tweets</h1>
+            <nav><a href="https://twitter.com/james_an" rel="nofollow">read more »</a></nav>
+          </div>
+        {% endcase %}
+      {% endfor %}
+    </aside>
+  {% endif %}
+</div>
+
+{% include footer.html %}
+
+</body>
+
+</html>

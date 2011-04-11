@@ -1,0 +1,20 @@
+---
+layout: base
+title:  profile
+head:   my profile
+id:     profile
+aside:  [photo, twitter]
+---
+James An began his foray into web development in May 2008, with the development of OpenMynds.com, released in the subsequent month. His web development work has often focused on non-profit organizations and community groups. (Writing about yourself in third-person seems a bit odd, but I suppose that's how autobios are written. Anyway, onward!)
+
+His life took an amazing twist in 2005 when he was awarded the [National Scholarship](http://www.adm.utoronto.ca/html/awards/natschps.htm "National Scholarship") from the [University of Toronto](http://www.utoronto.ca "University of Toronto"), a full scholarship to the university with choice of study (which became [EngSci](http://engsci.utoronto.ca/ "Engineering Science") and then EngSci's [Computer Option](http://engsci.utoronto.ca/index.php?option=com_content&task=view&id=35&Itemid=54 "Engineering Science Computer Option")). As a recognition of both his community work and achievements in a broad context, the scholarship has since given James the unique opportunities to fully explore his interests through the university's campus community in groups like [AIESEC](http://www.aiesec.ca/toronto "Association Internationale des Etudiants en Sciences Economiques et Commerciales (International Association of Students in Economics and Business Management)"), [CESA](http://cesa.skule.ca/ "Chinese Engineering Students' Association"), [LGBTOUT](http://lgbtout.com/ "Lesbians, Gays, Bisexuals and Transpeople of the University of Toronto"), [SME](http://chapters.sme.org/026/pages/student-chapters.html "Society of Manufacturing Engineers"), [UTERN](http://utern.org/ "University of Toronto's Environmental Resource Network"), [UTCA](http://utconsulting.ca/ "University of Toronto Consulting Association"), and [UTSU](http://utsu.ca/ "University of Toronto Students' Union"). (Don't them groups love those acronyms!)
+
+James' professional experience has been limited to financial companies, first with [BMO Nesbitt Burns](http://bmonesbittburns.com/personalInvest/InvestorLearning/InvestmentBasics/managedassets.asp "BMO Nesbitt Burns - Managed Assets Group") as a summer programmer and then with [Mapleridge Capital Corp.](http://mapleridgecapital.com/ "Mapleridge Capital Corporation") as a 16-month intern in their quantitative research group. Professionally, he doesn't have a dream job. Rather, his aspiration is to explore the diversity of work and learn through experience - to have his work reflect his interests and skills, so that work is play is fun.
+
+When he manages to pry his hands from the keyboard, James explores his long-standing interest in organizations, particularly non-profits. He's now serving his 4th year as a board member at the [Ralph Thornton Centre](http://ralphthornton.org/ "Ralph Thornton Centre").
+
+He used to be an avid swimming, still enjoys a good swim, and is hoping to get back into the routine. He was a pool lifeguard for the [City of Toronto](http://toronto.ca/parks/recreation_facilities/swimming/ "City of Toronto: Parks and Recreation: Swimming") and the [Toronto Community Housing](http://torontohousing.ca/ "Toronto Community Housing") briefly, as well as an aquatic instructor. Piano playing is a pasttime that has yet to be converted into some form of "work". He's classically trained and doesn't play as much as he used to, but - on occasion - he lugs his Grade 10 [RCM](http://rcmusic.ca/ "Royal Conservatory of Music") books with him and whatever other sheet music that catches his fancy. He even used to be a band nerd back in high school as both a flutist and piccoloist! Once upon a time, James held a black belt in [Shotokan](http://en.wikipedia.org/wiki/Shotokan "Shotokan Karate"), but the art has since left his body and now resides in a rarely visited part of his mind.
+
+The usability aspect of James' mind is already signaling that this page is too long. If you're still reading, why not contact James?
+
+*[HTML]: Hyper Text Markup Language

@@ -1,0 +1,21 @@
+---
+layout: base
+title:  contact
+head:   my contact form
+id:     contact
+aside:  [twitter]
+---
+<form method="post" class="vbox center">
+  <input name="id" type="hidden" value="88574"/>
+  <input name="sender_name" type="text" placeholder="Name" required="required"/>
+  <input name="sender_email" type="email" placeholder="Email Address" required="required"/>
+  <input name="subject" type="text" placeholder="Subject"/>
+  <textarea rows="12" cols="40" name="message" placeholder="Message" required="required"></textarea>
+  <div class="hbox">
+    <div class="vbox boxFlex">
+      <input name="captcha_code" type="text" placeholder="Type those here ==>" required="required" class="boxFlex1"/>
+      <input name="send" type="submit" id="send" value="Send"/>
+    </div>
+    <img src="http://kontactr.com/captcha.php" alt="Captcha"/>
+  </div>
+</form>

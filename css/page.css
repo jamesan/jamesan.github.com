@@ -1,0 +1,17 @@
+#profile > * {
+  /*-webkit-transition: all 1s ease-in-out;*/
+}
+
+#contact form input[name="captcha_code"] {
+  font-size: 36px;
+  padding: 2px;
+}
+
+#contact form input[type="submit"] {
+  border: 1px solid;
+}
+
+#contact form img {
+  height: 100px;
+  padding: 2px;
+}

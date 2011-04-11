@@ -1,0 +1,281 @@
+/*  Less Framework 4
+  http://lessframework.com
+  by Joni Korpi
+  License: http://creativecommons.org/licenses/MIT/  */
+
+
+/*  Resets
+  ------  */
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, 
+p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, 
+img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, hr, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, 
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figure, figcaption, hgroup, 
+menu, footer, header, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+article, aside, canvas, figure, figure img, figcaption, hgroup,
+footer, header, nav, section, audio, video {
+  display: block;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+a img {border: 0;}
+
+a {
+  color: #F7931E; /* Orange */
+  text-shadow: 1px 1px 1px #aaa;
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+}
+
+a:hover,
+a:active {
+  color: #804C0F; /* Dark orange */
+}
+
+
+
+/*  Typography presets
+  ------------------  */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Vegur";
+  text-shadow: 1px 1px 1px #aaa;
+}
+
+.gigantic {
+  font-size: 110px;
+  line-height: 120px;
+  letter-spacing: -2px;
+}
+
+.huge, h1 {
+  font-size: 68px;
+  line-height: 72px;
+  letter-spacing: -1px;
+}
+
+.large, h2 {
+  font-size: 42px;
+  line-height: 48px;
+}
+
+.bigger, h3 {
+  font-size: 26px;
+  line-height: 36px;
+}
+
+.big, h4 {
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.normal, body {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.small, small {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.smaller {
+  font-size: 10px;
+  line-height: 14px;
+}
+
+body, textarea, input {
+  font-family: Georgia, serif;
+}
+
+/* Selection colours (easy to forget) */
+
+::selection      {background: rgb(255,255,158);}
+::-moz-selection   {background: rgb(255,255,158);}
+img::selection     {background: transparent;}
+img::-moz-selection  {background: transparent;}
+body {-webkit-tap-highlight-color: rgb(255,255,158);}
+
+
+
+/*    Default Layout: 992px. 
+    Gutters: 24px.
+    Outer margins: 48px.
+    Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+
+body {
+  width: 896px;
+  padding: 72px 48px 84px;
+  background: rgb(232,232,232);
+  color: rgb(60,60,60);
+  -webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
+  margin: auto;
+}
+
+body > * {
+  clear: both;
+  padding: 10px 0;
+  width: 100%;
+}
+
+body > header {
+  text-transform: uppercase;
+}
+
+body > header,
+body > footer {
+  border-bottom: 2px solid #666;
+  border-top: 2px solid #666;
+  font-family: "Vegur";
+  text-shadow: 1px 1px 1px #aaa;
+}
+
+body > header hgroup h1 {
+  font-weight: bold;
+}
+
+body > header hgroup h2,
+body > header hgroup h3 {
+  font-weight: 100;
+}
+
+body > header nav div {
+  -webkit-column-count: 3;
+  -webkit-column-gap: 20px;
+  width: 330px;
+}
+
+body > header nav h1 {
+  -webkit-column-break-before: always;
+  color: #F7931E; /* Orange */
+}
+
+body > header nav a:hover,
+body > header nav a:active {
+  -webkit-column-break-before: always;
+  color: #F7931E; /* Orange */
+}
+
+#contact-info {
+  font-weight: bold;
+  text-align: right;
+}
+
+#contact-info a {
+  display: inline;
+  font-weight: bold;
+}
+
+body > header ul,
+body > footer ul {
+  list-style-type: none;
+}
+
+body > header a,
+body > footer a {
+  color: #000;
+  font-weight: normal;
+}
+
+body > footer li {
+  margin-right: 20px;
+}
+
+body > div h1 {
+  color: #F7931E; /* Orange */
+  margin-bottom: 10px;
+}
+
+body > div > aside {
+  margin-left: 20px;
+  max-width: 300px;
+  min-width: 300px;
+}
+
+.twitter article {
+  margin-bottom: 10px;
+}
+
+.twitter article time {
+  display: block;
+  font-style: italic;
+  text-align: right;
+}
+
+.twitter nav {
+  text-align: right;
+}
+
+.twitter nav a {
+  font-weight: normal;
+}
+
+
+/*    Tablet Layout: 768px.
+    Gutters: 24px.
+    Outer margins: 28px.
+    Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  body {
+    width: 712px;
+    padding: 48px 28px 60px;
+  }
+}
+
+
+
+/*    Mobile Layout: 320px.
+    Gutters: 24px.
+    Outer margins: 34px.
+    Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+  
+  body {
+    width: 252px;
+    padding: 48px 34px 60px;
+  }
+  
+}
+
+
+
+/*    Wide Mobile Layout: 480px.
+    Gutters: 24px.
+    Outer margins: 22px.
+    Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  
+  body {
+    width: 436px;
+    padding: 36px 22px 48px;
+  }
+  
+}
