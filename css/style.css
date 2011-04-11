@@ -146,6 +146,10 @@ body > footer {
   text-shadow: 1px 1px 1px #aaa;
 }
 
+body > header hgroup {
+  min-width: 300px;
+}
+
 body > header hgroup h1 {
   font-weight: bold;
 }
