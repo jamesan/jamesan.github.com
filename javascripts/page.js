@@ -14,6 +14,11 @@ $(function () {
 
   $('.gallery').tinyLightbox({animation: 'parallel', speed: 400});
 
+  $('a[href^=http]').click( function() {
+    window.open(this.href);
+    return false;
+  });
+
 /*
   $('#contact form img').load(function () {
     //$(this).pixastic("invert");

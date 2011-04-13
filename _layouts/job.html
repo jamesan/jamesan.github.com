@@ -19,7 +19,7 @@ layout: work
     <div class="details">
       Start date: {{ page.start_date | date: "%b %d %Y" }}<br/>
       End date: {{ page.date | date: "%b %d %Y" }}<br/>
-      Company URL: <a href="{{ page.address }}">{{ page.address }}</a><br/>
+      Company URL: <a href="{{ page.address }}" rel="external nofollow">{{ page.address }}</a><br/>
       Job title: {{ page.job_title | capitalize }}<br/>
       Reporting to: {{ page.manager }}
     </div>
