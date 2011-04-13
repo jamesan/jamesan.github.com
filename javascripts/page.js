@@ -12,6 +12,8 @@ $(function () {
     });
   }
 
+  $('.gallery').tinyLightbox({animation: 'parallel', speed: 400});
+
 /*
   $('#contact form img').load(function () {
     //$(this).pixastic("invert");

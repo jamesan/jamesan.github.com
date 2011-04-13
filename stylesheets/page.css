@@ -1,4 +1,6 @@
-#profile > * {
+#home .project {
+  display: inline-block;
+  margin: 3px;
   /*-webkit-transition: all 1s ease-in-out;*/
 }
 

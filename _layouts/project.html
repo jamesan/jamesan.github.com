@@ -1,0 +1,30 @@
+---
+layout: base
+---
+  <article id="content" class="boxFlex1">
+    <h1>{{ page.title }}</h1>
+    {{ content }}
+  </article>
+  
+  <aside class="boxFlex2 vbox center">
+    <div class="gallery">
+      {% for i in (1..page.image_num) %}
+        <a href="http://placehold.it/400&text={{ page.title | downcase | replace:' ','-' }}-{{ i }}-full.jpg">
+          <img src="http://placehold.it/147&text={{ page.title | downcase | replace:' ','-' }}-{{ i }}.jpg"/>
+        </a>
+      {% endfor %}
+    </div>
+    <div class="status">
+      <img src="http://placehold.it/96&text={{ page.status }}"/>
+      <img src="http://placehold.it/96&text={{ page.intent }}"/>
+      <img src="http://placehold.it/96&text={{ page.platform }}"/>
+    </div>
+    <div class="work">
+      {% for icon in page.work %}
+        <img src="http://placehold.it/46&text={{ icon }}"/>
+      {% endfor %}
+      {% for icon in page.techs %}
+        <img src="http://placehold.it/46&text={{ icon }}"/>
+      {% endfor %}
+    </div>
+  </aside>

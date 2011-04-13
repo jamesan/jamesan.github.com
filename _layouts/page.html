@@ -1,0 +1,22 @@
+---
+layout: base
+---
+  <div id="content" class="boxFlex1">
+    {{ content }}
+  </div>
+  
+  {% if page.aside %}
+    <aside class="boxFlex2 vbox center">
+      {% for item in page.aside %}
+        {% case item %}
+        {% when 'photo' %}
+          <div class="cbox"><img src="images/profile.jpg"/></div>
+        {% when 'twitter' %}
+          <div class="twitter">
+            <h1 class="big">Recent Tweets</h1>
+            <nav><a href="https://twitter.com/james_an" rel="nofollow">read more »</a></nav>
+          </div>
+        {% endcase %}
+      {% endfor %}
+    </aside>
+  {% endif %}

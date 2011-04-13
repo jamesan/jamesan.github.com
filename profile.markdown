@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: page
 title:  profile
 head:   my profile
 id:     profile
@@ -16,5 +16,3 @@ When he manages to pry his hands from the keyboard, James explores his long-stan
 He used to be an avid swimming, still enjoys a good swim, and is hoping to get back into the routine. He was a pool lifeguard for the [City of Toronto](http://toronto.ca/parks/recreation_facilities/swimming/ "City of Toronto: Parks and Recreation: Swimming") and the [Toronto Community Housing](http://torontohousing.ca/ "Toronto Community Housing") briefly, as well as an aquatic instructor. Piano playing is a pasttime that has yet to be converted into some form of "work". He's classically trained and doesn't play as much as he used to, but - on occasion - he lugs his Grade 10 [RCM](http://rcmusic.ca/ "Royal Conservatory of Music") books with him and whatever other sheet music that catches his fancy. He even used to be a band nerd back in high school as both a flutist and piccoloist! Once upon a time, James held a black belt in [Shotokan](http://en.wikipedia.org/wiki/Shotokan "Shotokan Karate"), but the art has since left his body and now resides in a rarely visited part of his mind.
 
 The usability aspect of James' mind is already signaling that this page is too long. If you're still reading, why not contact James?
-
-*[HTML]: Hyper Text Markup Language

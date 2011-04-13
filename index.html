@@ -1,0 +1,13 @@
+---
+layout: page
+title:  home
+head:   my website
+id:     home
+---
+{% for post in site.posts limit:6 %}
+<div class="project">
+  <a href="{{ post.url}}" title="{{ post.title }}">
+    <img src="http://placehold.it/290x218&text={{ post.title | downcase | replace:' ','-' }}" alt="{{ post.title }}"/>
+  </a>
+</div> <!-- /#container -->
+{% endfor %}
