@@ -4,16 +4,28 @@
   /*-webkit-transition: all 1s ease-in-out;*/
 }
 
+#contact form input,
+#contact form img,
+#contact form textarea {
+  font-size: 20px;
+  line-height: 24px;
+  margin: 10px;
+}
+
+#contact form * {
+}
+
 #contact form input[name="captcha_code"] {
-  font-size: 36px;
+  font-size: 28px;
+  line-height: 36px;
   padding: 2px;
 }
 
 #contact form input[type="submit"] {
   border: 1px solid;
+  line-height: 36px;
 }
 
 #contact form img {
-  height: 100px;
-  padding: 2px;
+  height: 104px;
 }
