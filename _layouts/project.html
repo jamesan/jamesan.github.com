@@ -27,4 +27,8 @@ layout: base
         <img src="http://placehold.it/46&text={{ icon }}"/>
       {% endfor %}
     </div>
+    <div class="details">
+      Finished: {{ page.date | date: "%b %d %Y" }}<br/>
+      URL: <a href="{{ page.address }}">{{ page.address }}</a>
+    </div>
   </aside>
