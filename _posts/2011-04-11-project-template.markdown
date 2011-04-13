@@ -11,15 +11,13 @@ published:  false # Todo: remove this.
 # Image name same as post title.
 # status:     [online, offline, in_progress]              # Pick one.
 # intent:     [paid, pro_bono, academic]                  # Pick one.
-# platform:   [drupal, github, static_web, windows]       # Pick one.
 # work:       [design, develop, research, hosting, other] # Pick some.
-# techs:      [xhtml, apache, c_c++, css, java, javascript, jekyll, jquery, markdown, mssql, mysql, nginx, php, pylons, python, ruby, sqlite, unity, vba] # Pick some.
+# techs:      [apache, c_c++, css, cvs, drupal, git, java, javascript, jekyll, jquery, linux, markdown, mssql, mysql, nginx, php, pylons, python, ruby, sqlite, svn, unity, vba, xhtml] # Pick some.
 
 # Todo: reassign these.
 image_num:  2
 status:     online
 intent:     paid
-platform:   github
 work:       [design, develop]
 techs:      [xhtml, css, jekyll, jquery, markdown, ruby]
 address:    http://jamesan.ca

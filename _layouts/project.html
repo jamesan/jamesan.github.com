@@ -14,17 +14,14 @@ layout: base
         </a>
       {% endfor %}
     </div>
-    <div class="status">
-      <img src="http://placehold.it/96&text={{ page.status }}"/>
-      <img src="http://placehold.it/96&text={{ page.intent }}"/>
-      <img src="http://placehold.it/96&text={{ page.platform }}"/>
-    </div>
-    <div class="work">
+    <div class="icons">
+      <img src="http://placehold.it/47&text={{ page.status }}"/>
+      <img src="http://placehold.it/47&text={{ page.intent }}"/>
       {% for icon in page.work %}
-        <img src="http://placehold.it/46&text={{ icon }}"/>
+        <img src="http://placehold.it/47&text={{ icon }}"/>
       {% endfor %}
       {% for icon in page.techs %}
-        <img src="http://placehold.it/46&text={{ icon }}"/>
+        <img src="http://placehold.it/47&text={{ icon }}"/>
       {% endfor %}
     </div>
     <div class="details">
