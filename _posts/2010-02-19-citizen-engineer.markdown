@@ -2,7 +2,6 @@
 layout:     project
 head:       my portfolio
 id:         project
-aside:      [project]
 categories: [project]
 
 image_num:  2

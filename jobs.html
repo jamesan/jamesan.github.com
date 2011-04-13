@@ -1,0 +1,13 @@
+---
+layout: page
+title:  portfolio
+head:   my portfolio
+id:     portfolio
+---
+{% for post in site.categories.job %}
+<div class="project">
+  <a href="{{ post.url}}" title="{{ post.title }}">
+    <img src="http://placehold.it/290x218&text={{ post.title | downcase | replace:' ','-' }}.jpg" alt="{{ post.title }}"/>
+  </a>
+</div> <!-- /#container -->
+{% endfor %}

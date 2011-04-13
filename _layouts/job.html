@@ -1,0 +1,25 @@
+---
+layout: work
+---
+    <div class="back">
+      <a href="/jobs">Back to employment</a>
+    </div>
+    <div class="gallery">
+      {% for i in (1..page.image_num) %}
+        <a href="http://placehold.it/400&text={{ page.title | downcase | replace:' ','-' }}-{{ i }}-full.jpg">
+          <img src="http://placehold.it/147&text={{ page.title | downcase | replace:' ','-' }}-{{ i }}.jpg"/>
+        </a>
+      {% endfor %}
+    </div>
+    <div class="icons">
+      {% for icon in page.techs %}
+        <img src="http://placehold.it/47&text={{ icon }}"/>
+      {% endfor %}
+    </div>
+    <div class="details">
+      Start date: {{ page.start_date | date: "%b %d %Y" }}<br/>
+      End date: {{ page.date | date: "%b %d %Y" }}<br/>
+      Company URL: <a href="{{ page.address }}">{{ page.address }}</a><br/>
+      Job title: {{ page.job_title | capitalize }}<br/>
+      Reporting to: {{ page.manager }}
+    </div>
