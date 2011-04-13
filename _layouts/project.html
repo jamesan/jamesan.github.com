@@ -6,7 +6,10 @@ layout: base
     {{ content }}
   </article>
   
-  <aside class="boxFlex2 vbox center">
+  <aside class="boxFlex2 vbox center glance">
+    <div class="back">
+      <a href="/projects">Back to portfolio</a>
+    </div>
     <div class="gallery">
       {% for i in (1..page.image_num) %}
         <a href="http://placehold.it/400&text={{ page.title | downcase | replace:' ','-' }}-{{ i }}-full.jpg">

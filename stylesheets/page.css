@@ -4,6 +4,16 @@
   /*-webkit-transition: all 1s ease-in-out;*/
 }
 
+.glance {
+  position: relative;
+}
+
+.glance .back {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
 #contact form input,
 #contact form img,
 #contact form textarea {
