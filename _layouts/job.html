@@ -13,7 +13,7 @@ layout: work
     </div>
     <div class="icons">
       {% for icon in page.techs %}
-        <img src="http://placehold.it/47&text={{ icon }}"/>
+        <img src="http://placehold.it/47&text={{ icon | url_encode }}"/>
       {% endfor %}
     </div>
     <div class="details">

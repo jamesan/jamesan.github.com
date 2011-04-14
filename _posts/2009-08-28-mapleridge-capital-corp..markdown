@@ -1,25 +1,15 @@
 ---
-layout:     project
-head:       my portfolio
-id:         project
-categories: [project]
+layout:     job
+head:       my employment
+id:         job
+categories: [job]
 
-published:  false # Todo: remove this.
-
-# Finished date same as post date.
-# Image name same as post title.
-# status:     [online, offline, in-progress]              # Pick one.
-# intent:     [commercial, pro_bono, academic]                  # Pick one.
-# work:       [design, develop, research, hosting, other] # Pick some.
-# techs:      [apache, bazaar, c_c++, confluence, css, cvs, drupal, git, java, javascript, jekyll, jira, jquery, linux, markdown, mysql, nginx, php, pylons, python, ruby, sqlite, svn, t-sql, unity, vba, wordpress, xhtml] # Pick some.
-
-# Todo: reassign these.
 image_num:  2
-status:     online
-intent:     commercial
-work:       [design, develop]
-techs:      [xhtml, css, jekyll, jquery, markdown, ruby]
-address:    http://jamesan.ca
+techs:      [c_c++, java, svn, t-sql]
+start_date: 2008-05-05
+address:    http://mapleridgecapital.com
+role:       assistant research analyst
+manager:    tom barford
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut augue dolor, elementum et feugiat a, mattis sed libero. Aliquam tortor nibh, tristique in varius non, suscipit id felis. Phasellus adipiscing, erat in volutpat rutrum, ante ipsum suscipit nunc, vel varius tortor nisl sit amet lorem. Nullam cursus tincidunt neque, eget adipiscing neque posuere at. Vestibulum viverra nisi vel dui sodales commodo.
 

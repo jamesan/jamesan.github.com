@@ -15,10 +15,10 @@ layout: work
       <img src="http://placehold.it/47&text={{ page.status }}"/>
       <img src="http://placehold.it/47&text={{ page.intent }}"/>
       {% for icon in page.work %}
-        <img src="http://placehold.it/47&text={{ icon }}"/>
+        <img src="http://placehold.it/47&text={{ icon | url_encode }}"/>
       {% endfor %}
       {% for icon in page.techs %}
-        <img src="http://placehold.it/47&text={{ icon }}"/>
+        <img src="http://placehold.it/47&text={{ icon | url_encode }}"/>
       {% endfor %}
     </div>
     <div class="details">
