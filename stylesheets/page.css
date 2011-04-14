@@ -1,17 +1,11 @@
-.project {
+#home .project {
   display: inline-block;
   margin: 3px;
   /*-webkit-transition: all 1s ease-in-out;*/
 }
 
-.glance {
-  position: relative;
-}
-
 .glance .back {
-  position: absolute;
-  top: 0;
-  right: 0;
+  text-align: right;
 }
 
 #contact form input,
