@@ -1,0 +1,15 @@
+Used under CC BY-SA 1.0:
+http://commons.wikimedia.org/wiki/File:WxWidgets.svg
+http://commons.wikimedia.org/wiki/File:Osa_hub.svg
+http://commons.wikimedia.org/wiki/File:Conical_flask_stylised.svg
+
+Used without permission (need to find replacement!):
+http://www.enterprise-dashboard.com/img/red-ball.gif
+http://www.enterprise-dashboard.com/img/green-ball.gif
+http://www.enterprise-dashboard.com/img/yellow-ball.gif
+
+Used without permission (need to find replacement!):
+http://www.dailywp.com/wp-content/uploads/re_icon_2_nice_design.jpg
+http://www.corylafferty.com/images/serviceIcon_development.jpg
+
+All other icons in this directory were created with fonts and hence original.
