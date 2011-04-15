@@ -5,10 +5,10 @@ id:         project
 categories: [project]
 
 image_num:  2
-status:     in-progress
-intent:     pro bono
-work:       [design, develop, host]
-techs:      [css, javascript, jquery, svn, xhtml]
+status:     In progress
+intent:     Pro bono
+work:       [Design, Develop, Host]
+techs:      [CSS, Javascript, jQuery, Subversion, XHTML]
 address:    http://code.google.com/p/gpcv4/
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut augue dolor, elementum et feugiat a, mattis sed libero. Aliquam tortor nibh, tristique in varius non, suscipit id felis. Phasellus adipiscing, erat in volutpat rutrum, ante ipsum suscipit nunc, vel varius tortor nisl sit amet lorem. Nullam cursus tincidunt neque, eget adipiscing neque posuere at. Vestibulum viverra nisi vel dui sodales commodo.

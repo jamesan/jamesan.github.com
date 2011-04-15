@@ -8,10 +8,10 @@ published:  false # Todo: remove this.
 
 # Finished date same as post date.
 # Image name same as post title.
-# status:     [online, offline, in-progress]              # Pick one.
-# intent:     [commercial, pro_bono, academic]                  # Pick one.
-# work:       [design, develop, research, hosting, other] # Pick some.
-# techs:      [apache, bazaar, c_c++, confluence, css, cvs, drupal, git, java, javascript, jekyll, jira, jquery, linux, markdown, mysql, nginx, php, pylons, python, ruby, sqlite, svn, t-sql, unity, vba, wordpress, xhtml] # Pick some.
+# status:     [Online, Offline, In progress]              # Pick one.
+# intent:     [Commercial, Pro bono, Academic]            # Pick one.
+# work:       [Design, Develop, Research, Hosting, Other] # Pick some.
+# techs:      [Apache, Bazaar, C++, Confluence, CSS, CVS, Drupal, Git, HTML5, Java, Javascript, Jekyll, JIRA, jQuery, Linux, Markdown, MySQL, nginx, PHP, Pylons, Python, Ruby, SQLite, Subversion, T-SQL, Unity, VBA, Wordpress, XHTML] # Pick some.
 
 # Todo: reassign these.
 image_num:  2

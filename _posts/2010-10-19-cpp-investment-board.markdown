@@ -5,7 +5,7 @@ id:         job
 categories: [job]
 
 image_num:  2
-techs:      [confluence, java, jira, linux, svn, t-sql]
+techs:      [Confluence, Java, JIRA, Linux, Subversion, T-SQL]
 start_date: 2010-09-20
 address:    http://cppib.ca
 role:       technical analyst

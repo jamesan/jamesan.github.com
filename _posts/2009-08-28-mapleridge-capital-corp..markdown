@@ -5,7 +5,7 @@ id:         job
 categories: [job]
 
 image_num:  2
-techs:      [c_c++, java, svn, t-sql]
+techs:      [C++, Java, Subversion, T-SQL]
 start_date: 2008-05-05
 address:    http://mapleridgecapital.com
 role:       assistant research analyst

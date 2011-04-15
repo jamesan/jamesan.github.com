@@ -5,10 +5,10 @@ id:         project
 categories: [project]
 
 image_num:  2
-status:     online
-intent:     academic
-work:       [design, develop, research, host]
-techs:      [apache, css, drupal, javascript, jquery, mysql, php,svn, xhtml]
+status:     Online
+intent:     Academic
+work:       [Design, Develop, Research, Host]
+techs:      [Apache, CSS, Drupal, Javascript, jQuery, MySQL, PHP, Subversion, XHTML]
 address:    http://mosaic.jamesan.ca
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut augue dolor, elementum et feugiat a, mattis sed libero. Aliquam tortor nibh, tristique in varius non, suscipit id felis. Phasellus adipiscing, erat in volutpat rutrum, ante ipsum suscipit nunc, vel varius tortor nisl sit amet lorem. Nullam cursus tincidunt neque, eget adipiscing neque posuere at. Vestibulum viverra nisi vel dui sodales commodo.

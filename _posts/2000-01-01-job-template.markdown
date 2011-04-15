@@ -8,7 +8,7 @@ published:  false # Todo: remove this.
 
 # End date same as post date.
 # Image name same as post title.
-# techs:      [apache, bazaar, c_c++, confluence, css, cvs, drupal, git, java, javascript, jekyll, jira, jquery, linux, markdown, mysql, nginx, php, pylons, python, ruby, sqlite, svn, t-sql, unity, vba, wordpress, xhtml] # Pick some.
+# techs:      [Apache, Bazaar, C++, Confluence, CSS, CVS, Drupal, Git, HTML5, Java, Javascript, Jekyll, JIRA, jQuery, Linux, Markdown, MySQL, nginx, PHP, Pylons, Python, Ruby, SQLite, Subversion, T-SQL, Unity, VBA, Wordpress, XHTML] # Pick some.
 
 # Todo: reassign these.
 image_num:  2
