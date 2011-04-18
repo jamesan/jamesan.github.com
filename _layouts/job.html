@@ -4,15 +4,13 @@ layout: work
     <div class="back">
       <a href="/jobs">Back to employment</a>
     </div>
-    {% if page.image_num > 0 %}
-      <div class="gallery">
-        {% for i in (1..page.image_num) %}
-          <a href="http://placehold.it/400&text={{ page.title | downcase | replace:' ','-' }}-{{ i }}-full.jpg">
-            <img width="147" height="147" src="http://placehold.it/147&text={{ page.title | downcase | replace:' ','-' }}-{{ i }}.jpg"/>
-          </a>
-        {% endfor %}
-      </div>
-    {% endif %}
+    <div class="gallery">
+      {% for format in page.gallery_formats %}
+        <a href="/images/jobs/{{ page.title | downcase | replace:' ','-' }}-{{ forloop.index }}-full.{{ format }}">
+          <img width="147" height="147" src="/images/jobs/{{ page.title | downcase | replace:' ','-' }}-{{ forloop.index }}.{{ format }}"/>
+        </a>
+      {% endfor %}
+    </div>
     <div class="icons">
       {% for icon in page.techs %}
         <img width="32" height="32" src="/images/icons/techs/{{ icon | downcase | url_encode }}.png" alt="{{ icon }}"/>

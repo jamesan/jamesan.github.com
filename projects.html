@@ -7,7 +7,7 @@ id:     portfolio
 {% for post in site.categories.project %}
 <div class="project">
   <a href="{{ post.url}}" title="{{ post.title }}">
-    <img width="290" height="218" src="http://placehold.it/290x218&text={{ post.title | downcase | replace:' ','-' }}.jpg" alt="{{ post.title }}"/>
+    <img width="290" height="218" src="/images/projects/{{ post.title | downcase | replace:' ','-' }}.{{ post.main_format }}" alt="{{ post.title }}"/>
   </a>
 </div> <!-- /#container -->
 {% endfor %}

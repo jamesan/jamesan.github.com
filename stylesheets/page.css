@@ -9,15 +9,28 @@
 }
 
 .glance .icons .alt,
-body > footer .alt {
-  height: 32px;
-  line-height: 32px;
+body > footer .alt,
+#content .project .alt {
+  display: block;
   margin: 0 1px;
   overflow: hidden;
   position: absolute;
   text-align: center;
-  width: 30px;
   z-index: -1;
+}
+
+.glance .icons .alt,
+body > footer .alt {
+  cursor: default;
+  height: 32px;
+  line-height: 32px;
+  width: 30px;
+}
+
+#content .project .alt {
+  height: 218px;
+  line-height: 218px;
+  width: 290px;
 }
 
 #contact form input,

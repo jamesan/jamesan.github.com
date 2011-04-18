@@ -19,9 +19,9 @@ $(function () {
     return false;
   });
 
-  $('.glance .icons img, body > footer img').load(function() {
+  $('.glance .icons img, body > footer img, #content .project img').load(function() {
     $(this).each(function() {
-      var alt = $('<div/>').text($(this).attr('alt'));
+      var alt = $('<span/>').text($(this).attr('alt'));
       
       $(alt)
         .addClass('alt')
@@ -31,10 +31,12 @@ $(function () {
         .contents().stretch().end();
     })
     .mouseenter(function() {
-      $(this).fadeTo('fast', 0.01);
+      $(this).fadeTo('fast', 0.5)
+        .next('span').css('z-index', '0');
     })
-    .mouseleave(function() {
-      $(this).fadeTo('fast', 1);
+    .next('span').mouseleave(function() {
+      $(this).css('z-index', '-1')
+        .prev('img').fadeTo('fast', 1);
     });
   });
 
