@@ -4,7 +4,8 @@ head:       my employment
 id:         job
 categories: [job]
 
-image_num:  2
+main_format: png
+
 techs:      [C++, Java, Subversion, T-SQL]
 start_date: 2008-05-05
 address:    http://mapleridgecapital.com
