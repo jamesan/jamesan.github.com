@@ -4,6 +4,8 @@ head:       my portfolio
 id:         project
 categories: [project]
 
+title:      tagin!
+
 image_num:  2
 status:     In progress
 intent:     Academic

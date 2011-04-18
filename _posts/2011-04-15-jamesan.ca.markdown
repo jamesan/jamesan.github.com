@@ -4,7 +4,10 @@ head:       my portfolio
 id:         project
 categories: [project]
 
-image_num:  2
+title:      JamesAn.ca
+
+main_format: png
+
 status:     Online
 intent:     Commercial
 work:       [Design, Develop]

@@ -4,7 +4,10 @@ head:       my employment
 id:         job
 categories: [job]
 
-image_num:  2
+title:      CPP Investment Board
+
+main_format: png
+
 techs:      [Confluence, Java, JIRA, Linux, Subversion, T-SQL]
 start_date: 2010-09-20
 address:    http://cppib.ca

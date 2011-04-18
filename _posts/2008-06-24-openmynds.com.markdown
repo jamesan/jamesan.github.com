@@ -4,6 +4,8 @@ head:       my portfolio
 id:         project
 categories: [project]
 
+title:      OpenMynds.com
+
 image_num:  2
 status:     Online
 intent:     Pro bono

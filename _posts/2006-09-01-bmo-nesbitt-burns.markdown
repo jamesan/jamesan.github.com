@@ -4,6 +4,8 @@ head:       my employment
 id:         job
 categories: [job]
 
+title:      BMO Nesbitt Burns
+
 main_format: png
 gallery_formats: [png, png, png, png, png]
 
