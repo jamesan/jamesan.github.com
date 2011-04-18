@@ -14,7 +14,10 @@ published:  false # Todo: remove this.
 # techs:      [Apache, Bazaar, C++, Confluence, CSS, CVS, Drupal, Git, HTML5, Java, Javascript, Jekyll, JIRA, jQuery, Linux, Markdown, MySQL, nginx, PHP, Pylons, Python, Ruby, SQLite, Subversion, T-SQL, Unity, VBA, Wordpress, XHTML] # Pick some.
 
 # Todo: reassign these.
-image_num:  2
+
+main_format: jpg
+gallery_formats: [png, png]
+
 status:     online
 intent:     commercial
 work:       [design, develop]
