@@ -4,7 +4,9 @@ head:       my portfolio
 id:         project
 categories: [project]
 
-image_num:  2
+main_format: jpg
+gallery_formats: [jpg, jpg, jpg]
+
 status:     Online
 intent:     Academic
 work:       [Design, Develop, Research, Host]

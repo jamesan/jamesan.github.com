@@ -4,7 +4,8 @@ head:       my portfolio
 id:         project
 categories: [project]
 
-image_num:  2
+main_format: png
+
 status:     In progress
 intent:     Pro bono
 work:       [Develop, Research]

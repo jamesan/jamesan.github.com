@@ -4,7 +4,8 @@ head:       my employment
 id:         job
 categories: [job]
 
-image_num:  2
+main_format: png
+
 techs:      [Apache, CSS, Drupal, Javascript, jQuery, Linux, MySQL, PHP, XHTML]
 start_date: 2009-05-23
 address:    http://groups.drupal.org/node/20706

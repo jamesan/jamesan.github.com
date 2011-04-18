@@ -6,7 +6,8 @@ categories: [project]
 
 title:      tagin!
 
-image_num:  2
+main_format: png
+
 status:     In progress
 intent:     Academic
 work:       [Develop]
