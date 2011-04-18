@@ -19,6 +19,25 @@ $(function () {
     return false;
   });
 
+  $('.glance .icons img, body > footer img').load(function() {
+    $(this).each(function() {
+      var alt = $('<div/>').text($(this).attr('alt'));
+      
+      $(alt)
+        .addClass('alt')
+        .css('left', $(this).offset().left)
+        .css('top', $(this).offset().top)
+        .insertAfter($(this))
+        .contents().stretch().end();
+    })
+    .mouseenter(function() {
+      $(this).fadeTo('fast', 0.01);
+    })
+    .mouseleave(function() {
+      $(this).fadeTo('fast', 1);
+    });
+  });
+
 /*
   $('#contact form img').load(function () {
     //$(this).pixastic("invert");
