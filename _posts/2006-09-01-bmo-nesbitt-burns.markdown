@@ -4,7 +4,9 @@ head:       my employment
 id:         job
 categories: [job]
 
-image_num:  2
+main_format: png
+gallery_formats: [png, png, png, png, png]
+
 techs:      [VBA]
 start_date: 2006-05-08
 address:    http://bmo.com/nesbittburns
