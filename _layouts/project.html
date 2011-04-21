@@ -12,15 +12,27 @@ layout: work
       {% endfor %}
     </div>
     <div class="icons">
-      <img width="32" height="32" src="/images/icons/others/{{ page.status | downcase | replace:' ','-' }}.png" alt="{{ page.status }}"/>
-      <img width="32" height="32" src="/images/icons/others/{{ page.intent | downcase | replace:' ','-' }}.png" alt="{{ page.intent }}"/>
+      <span class="icon">
+        <img width="32" height="32" src="/images/icons/others/{{ page.status | downcase | replace:' ','-' }}.png" alt="{{ page.status }}"/>
+        <span>{{ page.status }}</span>
+      </span>
+      <span class="icon">
+        <img width="32" height="32" src="/images/icons/others/{{ page.intent | downcase | replace:' ','-' }}.png" alt="{{ page.intent }}"/>
+        <span>{{ page.intent }}</span>
+      </span>
       {% for icon in page.work %}
-        <img width="32" height="32" src="/images/icons/others/{{ icon | downcase | replace:' ','-' }}.png" alt="{{ icon }}"/>
+        <span class="icon">
+          <img width="32" height="32" src="/images/icons/others/{{ icon | downcase | replace:' ','-' }}.png" alt="{{ icon }}"/>
+          <span>{{ icon }}</span>
+        </span>
       {% endfor %}
     </div>
     <div class="icons">
       {% for icon in page.techs %}
-        <img width="32" height="32" src="/images/icons/techs/{{ icon | downcase | url_encode }}.png" alt="{{ icon }}"/>
+        <span class="icon">
+          <img width="32" height="32" src="/images/icons/techs/{{ icon | downcase | replace:' ','-' }}.png" alt="{{ icon }}"/>
+          <span>{{ icon }}</span>
+        </span>
       {% endfor %}
     </div>
     <div class="details">

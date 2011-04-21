@@ -2,22 +2,33 @@
   text-align: right;
 }
 
-.glance .icons .alt,
-body > footer .alt,
-#content .project .alt {
-  display: block;
-  margin: 0 1px;
-  overflow: hidden;
-  position: absolute;
-  text-align: center;
-  z-index: -1;
-}
-
-.glance .icons .alt,
-body > footer .alt {
-  cursor: default;
+.icons .icon {
+  display: inline-block;
   height: 32px;
   line-height: 32px;
+  position: relative;
+  width: 32px;
+}
+
+.icons .icon > * {
+  cursor: default;
+  height: 32px;
+  position: absolute;
+  width: 32px;
+}
+
+.icons a.icon > * {
+  cursor: pointer;
+}
+
+.icons .icon > span {
+  color: #F7931E;
+  margin: 1px;
+  text-align: center;
+  text-shadow: #000 1px 0px 1px,
+               #000 0px 1px 1px,
+               #000 -1px 0px 1px,
+               #000 0px -1px 1px;
   width: 30px;
 }
 

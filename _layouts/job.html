@@ -13,7 +13,10 @@ layout: work
     </div>
     <div class="icons">
       {% for icon in page.techs %}
-        <img width="32" height="32" src="/images/icons/techs/{{ icon | downcase | url_encode }}.png" alt="{{ icon }}"/>
+        <span class="icon">
+          <img width="32" height="32" src="/images/icons/techs/{{ icon | downcase | replace:' ','-' }}.png" alt="{{ icon }}"/>
+          <span>{{ icon }}</span>
+        </span>
       {% endfor %}
     </div>
     <div class="details">

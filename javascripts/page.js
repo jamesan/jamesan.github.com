@@ -18,26 +18,20 @@ $(function () {
     window.open(this.href);
     return false;
   });
-
-  $('.glance .icons img, body > footer img').load(function() {
-    $(this).each(function() {
-      var alt = $('<span/>').text($(this).attr('alt'));
-      
-      $(alt)
-        .addClass('alt')
-        .css('left', $(this).offset().left)
-        .css('top', $(this).offset().top)
-        .insertAfter($(this))
-        .contents().stretch().end();
-    })
-    .mouseenter(function() {
-      $(this).fadeTo('fast', 0.5)
-        .next('span').css('z-index', '0');
-    })
-    .next('span').mouseleave(function() {
-      $(this).css('z-index', '-1')
-        .prev('img').fadeTo('fast', 1);
-    });
+  
+  $('.icons .icon span').each(function() {
+    $(this)
+      .mouseenter(function() {
+        $(this)
+          .fadeTo('fast', 1)
+          // Workaround for Webkit browsers that can't stretch text on ready.
+          .contents().stretch();
+      })
+      .mouseleave(function() {
+        $(this)
+          .fadeTo('fast', 0.01);
+      })
+      .fadeTo(0, 0.01).contents().stretch();
   });
 
   $('#content .project').each(function() {
