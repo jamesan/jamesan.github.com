@@ -19,7 +19,7 @@ $(function () {
     return false;
   });
 
-  $('.glance .icons img, body > footer img, #content .project img').load(function() {
+  $('.glance .icons img, body > footer img').load(function() {
     $(this).each(function() {
       var alt = $('<span/>').text($(this).attr('alt'));
       
@@ -38,6 +38,27 @@ $(function () {
       $(this).css('z-index', '-1')
         .prev('img').fadeTo('fast', 1);
     });
+  });
+
+  $('#content .project').each(function() {
+    $(this)
+      .mouseenter(function() {
+        $(this)
+          .css('border', '#F7931E solid 3px')
+          .css('margin', '0')
+          .children('span')
+            .fadeTo('fast', 1)
+            // Workaround for Webkit browsers that can't stretch text on ready.
+            .contents().stretch();
+      })
+      .mouseleave(function() {
+        $(this)
+          .css('border', 'none')
+          .css('margin', '3px')
+          .children('span')
+            .fadeTo('fast', 0.01);
+      })
+      .children('span').fadeTo(0, 0.01).contents().stretch();
   });
 
 /*

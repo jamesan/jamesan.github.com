@@ -3,11 +3,9 @@ layout: page
 title:  employment
 head:   my employment
 id:     employment
+
+type:   job
 ---
 {% for post in site.categories.job %}
-<div class="project">
-  <a href="{{ post.url}}" title="{{ post.title }}">
-    <img width="290" height="218" src="/images/jobs/{{ post.title | downcase | replace:' ','-' }}.{{ post.main_format }}" alt="{{ post.title }}"/>
-  </a>
-</div> <!-- /#container -->
+  {% include post_listing.html %}
 {% endfor %}

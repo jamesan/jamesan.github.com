@@ -3,11 +3,9 @@ layout: page
 title:  portfolio
 head:   my portfolio
 id:     portfolio
+
+type:   project
 ---
 {% for post in site.categories.project %}
-<div class="project">
-  <a href="{{ post.url}}" title="{{ post.title }}">
-    <img width="290" height="218" src="/images/projects/{{ post.title | downcase | replace:' ','-' }}.{{ post.main_format }}" alt="{{ post.title }}"/>
-  </a>
-</div> <!-- /#container -->
+  {% include post_listing.html %}
 {% endfor %}
