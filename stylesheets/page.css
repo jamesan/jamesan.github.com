@@ -50,14 +50,8 @@
 #content .project > span {
   color: #F7931E;
   text-align: center;
-  text-shadow: #FFF 1px 0px 0,
-               #FFF 0px 1px 0,
-               #FFF -1px 0px 0,
-               #FFF 0px -1px 0,
-               #000 2px 0px 2px,
-               #000 0px 2px 2px,
-               #000 -2px 0px 2px,
-               #000 0px -2px 2px;
+  text-shadow: #FFF 1px 1px 0,
+               #FFF -1px -1px 0;
 }
 
 #contact form input,

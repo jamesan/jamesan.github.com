@@ -36,6 +36,6 @@ layout: work
       {% endfor %}
     </div>
     <div class="details">
-      {% if page.status == "In progress" %} Unfinished {% else %} Finished: {{ page.date | date: "%b %d %Y" }} {% endif %}<br/>
-      URL: <a href="{{ page.address }}" rel="external nofollow">{{ page.address }}</a>
+      {% if page.status == "In progress" %}Unfinished{% else %}Finished: {{ page.date | date: "%b %d %Y" }}{% endif %}<br/>
+      {% if page.address %}URL: <a href="{{ page.address }}" rel="external nofollow">{{ page.address }}</a>{% else %}No URL available.{% endif %}
     </div>

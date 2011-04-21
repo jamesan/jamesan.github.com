@@ -4,7 +4,11 @@ head:       my portfolio
 id:         project
 categories: [project]
 
-image_num:  2
+hide_title: yes
+
+main_format: png
+gallery_formats: [jpg, jpg]
+
 status:     Offline
 intent:     Pro bono
 work:       [Design, Develop, Host]
