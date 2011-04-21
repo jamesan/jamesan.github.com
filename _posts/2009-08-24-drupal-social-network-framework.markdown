@@ -4,6 +4,8 @@ head:       my employment
 id:         job
 categories: [job]
 
+hide_title: yes
+
 main_format: png
 
 techs:      [Apache, CSS, Drupal, Javascript, jQuery, Linux, MySQL, PHP, XHTML]

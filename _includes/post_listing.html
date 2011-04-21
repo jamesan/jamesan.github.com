@@ -1,4 +1,4 @@
 <a href="{{ post.url}}" title="{{ post.title }}" class="project">
   <img width="290" height="218" src="/images/{{ page.type }}s/{{ post.title | downcase | replace:' ','-' }}.{{ post.main_format }}" alt="{{ post.title }}"/>
-  <span>{{ post.title }}</span>
+  <span>{% if post.hide_title == null %}{{ post.title }}{% endif %}</span>
 </a>

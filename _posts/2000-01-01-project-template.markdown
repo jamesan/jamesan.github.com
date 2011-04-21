@@ -15,6 +15,10 @@ published:  false # Todo: remove this.
 
 # Todo: reassign these.
 
+# Optional fields
+title:      JamesAn.ca
+hide_title: yes
+
 main_format: jpg
 gallery_formats: [png, png]
 

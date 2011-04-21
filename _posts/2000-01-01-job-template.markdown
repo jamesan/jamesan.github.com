@@ -12,6 +12,10 @@ published:  false # Todo: remove this.
 
 # Todo: reassign these.
 
+# Optional fields
+title:      BMO Nesbitt Burns
+hide_title: yes
+
 main_format: jpg
 gallery_formats: [png, png]
 

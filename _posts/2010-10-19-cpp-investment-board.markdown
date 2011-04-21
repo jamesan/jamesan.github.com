@@ -5,6 +5,7 @@ id:         job
 categories: [job]
 
 title:      CPP Investment Board
+hide_title: yes
 
 main_format: png
 
