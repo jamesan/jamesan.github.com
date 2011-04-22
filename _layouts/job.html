@@ -1,6 +1,12 @@
 ---
-layout: work
+layout: base
 ---
+  <article id="content" class="boxFlex1">
+    <h1 class="larger">{{ page.title }}</h1>
+    {{ page.content }}
+  </article>
+  
+  <aside class="boxFlex2 vbox glance">
     <div class="back">
       <a href="/jobs">Back to employment</a>
     </div>
@@ -26,3 +32,4 @@ layout: work
       Role: {{ page.role | capitalize }}<br/>
       Reporting to: {{ page.manager }}
     </div>
+  </aside>
