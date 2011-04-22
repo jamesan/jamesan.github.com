@@ -23,15 +23,15 @@ $(function () {
     $(this)
       .mouseenter(function() {
         $(this)
-          .fadeTo('fast', 1)
+          .css('opacity', 1)
           // Workaround for Webkit browsers that can't stretch text on ready.
           .contents().stretch();
       })
       .mouseleave(function() {
         $(this)
-          .fadeTo('fast', 0.01);
+          .css('opacity', 0.01);
       })
-      .fadeTo(0, 0.01).contents().stretch();
+      .css('opacity', 0.01).contents().stretch();
   });
 
   $('#content .project').each(function() {
@@ -41,7 +41,7 @@ $(function () {
           .css('border', '#F7931E solid 3px')
           .css('margin', '0')
           .children('span')
-            .fadeTo('fast', 1)
+            .css('opacity', 1)
             // Workaround for Webkit browsers that can't stretch text on ready.
             .contents().stretch();
       })
@@ -50,9 +50,9 @@ $(function () {
           .css('border', 'none')
           .css('margin', '3px')
           .children('span')
-            .fadeTo('fast', 0.01);
+            .css('opacity', 0.01);
       })
-      .children('span').fadeTo(0, 0.01).contents().stretch();
+      .children('span').css('opacity', 0.01).contents().stretch();
   });
 
 /*

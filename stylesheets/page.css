@@ -25,10 +25,10 @@
   color: #F7931E;
   margin: 1px;
   text-align: center;
-  text-shadow: #000 1px 0px 1px,
-               #000 0px 1px 1px,
-               #000 -1px 0px 1px,
-               #000 0px -1px 1px;
+  text-shadow: #000 1px 0 1px,
+               #000 0 1px 1px,
+               #000 -1px 0 1px,
+               #000 0 -1px 1px;
   width: 30px;
 }
 
@@ -50,8 +50,14 @@
 #content .project > span {
   color: #F7931E;
   text-align: center;
-  text-shadow: #FFF 1px 1px 0,
-               #FFF -1px -1px 0;
+  text-shadow: #FFF 1px 0 1px,
+               #FFF -1px 0 1px,
+               #FFF 0 -1px 1px,
+               #FFF 0 1px 1px,
+               #000 2px 0 1px,
+               #000 -2px 0 1px,
+               #000 0 -2px 1px,
+               #000 0 2px 1px;
 }
 
 #contact form input,
