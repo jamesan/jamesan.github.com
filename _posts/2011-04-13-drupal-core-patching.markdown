@@ -12,9 +12,17 @@ gallery_formats: [png, png]
 status:     In progress
 intent:     Pro bono
 work:       [Develop]
-techs:      [CSS, CVS, Drupal, Git, jQuery, Linux, MySQL, PHP, XHTML]
+techs:      [Apache, CSS, CVS, Drupal, Git, jQuery, Linux, MySQL, nginx, PHP, XHTML]
 address:    http://drupal.org/user/322251
 ---
+The following is a brief list of patches to the Drupal 6 and 7 core that I helped produce. Most of the patches implement changes made from Drupal 6 to 7, while others are minor edits to documentation or UI text.
+
+The patches mainly involve a mix of changes to Drupal's CSS, PHP, HTML and Javascript files. The testing environment was initially a Drupal instance installed into an Linux/Apache/MySQL/PHP environment. Latter patches were written in a Linux/nginx/MySQL/PHP environment. Edits were all made with Notepad2, "a fast and light-weight Notepad-like text editor with syntax highlighting".[^1]
+
+Drupal snapshots were mostly retrieved through the official CVS repositories. Following the migration from CVS to Git in late-2010, snapshots were retrieved through Git.
+
+[^1]: [Notepad2 homepage](http://www.flos-freeware.ch/notepad2.html)
+
 <ul>
   <li><a href="http://drupal.org/commitlog/commit/2/e5e3d279e299b00890e86f8fa2f4b48ca1ce9948" rel="nofollow external">Patch #461938 by Kars-T, Garrett Albright, JamesAn, grendzy</a><br/> fixed inconsistent use of filter_xss_admin() on () an</li>
   <li><a href="http://drupal.org/commitlog/commit/2/6b4aa3080f37c589b7d7cb30fecae450f1ac3abc" rel="nofollow external">#480424 by JamesAn</a><br/> Update locale module to use drupal_static().</li>

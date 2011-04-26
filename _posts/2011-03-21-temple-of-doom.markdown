@@ -12,6 +12,11 @@ work:       [Design, Develop, Host]
 techs:      [CSS, Javascript, jQuery, Subversion, XHTML]
 address:    http://code.google.com/p/gpcv4/
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut augue dolor, elementum et feugiat a, mattis sed libero. Aliquam tortor nibh, tristique in varius non, suscipit id felis. Phasellus adipiscing, erat in volutpat rutrum, ante ipsum suscipit nunc, vel varius tortor nisl sit amet lorem. Nullam cursus tincidunt neque, eget adipiscing neque posuere at. Vestibulum viverra nisi vel dui sodales commodo.
+Temple of Doom is an incomplete game prototype for the [Game Prototype Challenge, Version 4](http://gameprototypechallenge.com/v4) (GPCv4). The Game Prototype Challenge is a monthly, week-long, open challenge announced mainly through Twitter to developers to create a game prototype around two keywords or themes.[^1] The GPCv4 themes were burden and sunshine.
 
-Ut quis porttitor eros. Suspendisse potenti. Etiam in nulla ornare risus interdum auctor ut at risus. Nullam tellus risus, condimentum sed ultrices quis, ullamcorper vel justo. Vestibulum blandit leo molestie lectus bibendum eget consequat diam commodo. Vivamus elementum aliquam justo id cursus. Sed aliquet elementum lacus eget pretium. Morbi facilisis aliquam libero, quis sollicitudin erat sollicitudin in. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin tellus eros, lobortis eleifend faucibus vitae, ultrices nec lectus. Mauris tellus lacus, suscipit a vulputate vel, aliquam vel lacus. Nullam et purus scelerisque justo semper consequat quis et orci. Curabitur sodales elit at dolor volutpat congue. Suspendisse eget neque nisi. Proin molestie dapibus augue, eu pharetra dolor mollis a.
+The initial (and unreleased) game design was a [3D tower building simulation](http://www.youtube.com/watch?v=pMK-MxFYGus) inspired by the Tower of Babel myth, developed in the Unity IDE. The design quickly became unwieldy and mathy for the short week-long timeframe, and the idea was largely abandoned.
+
+The second attempt is the current prototype, a 2D tower-building simulation built using HTML5's canvas element and Javascript/jQuery. The project is hosted by Google Code in a SVN repository.
+
+[^1]: [Game Prototype Challenge: About the Challenge](http://gameprototypechallenge.com/about)
+*[GPCv4]: Game Prototype Challenge, Version 4
