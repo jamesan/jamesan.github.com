@@ -4,6 +4,8 @@ head:       my portfolio
 id:         project
 categories: [project]
 
+feature:    yes
+
 main_format: jpg
 gallery_formats: [png, png]
 

@@ -4,6 +4,11 @@ head:       my portfolio
 id:         project
 categories: [project]
 
+hide_title: yes
+
+main_format: jpg
+gallery_formats: [jpg, jpg, jpg]
+
 image_num:  2
 status:     Online
 intent:     Commercial

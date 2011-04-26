@@ -5,6 +5,11 @@ id:         project
 categories: [project]
 
 title:      OpenMynds.com
+hide_title: yes
+feature:    yes
+
+main_format: png
+gallery_formats: [png, jpg, png, png]
 
 image_num:  2
 status:     Online

@@ -6,6 +6,7 @@ categories: [project]
 
 title:      JamesAn.ca
 hide_title: yes
+feature:    yes
 
 main_format: png
 

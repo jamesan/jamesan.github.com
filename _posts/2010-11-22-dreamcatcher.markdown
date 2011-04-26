@@ -5,6 +5,7 @@ id:         project
 categories: [project]
 
 hide_title: yes
+feature:    yes
 
 main_format: png
 gallery_formats: [jpg, jpg, jpg, jpg]

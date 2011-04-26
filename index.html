@@ -6,6 +6,8 @@ id:     home
 
 type:   project
 ---
-{% for post in site.categories.project limit:6 %}
-  {% include post_listing.html %}
+{% for post in site.categories.project %}
+  {% if post.feature %}
+    {% include post_listing.html %}
+  {% endif %}
 {% endfor %}
