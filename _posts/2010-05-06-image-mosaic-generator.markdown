@@ -15,6 +15,10 @@ work:       [Design, Develop, Research, Host]
 techs:      [Apache, CSS, Drupal, Javascript, jQuery, MySQL, PHP, Subversion, XHTML]
 address:    http://mosaic.jamesan.ca
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut augue dolor, elementum et feugiat a, mattis sed libero. Aliquam tortor nibh, tristique in varius non, suscipit id felis. Phasellus adipiscing, erat in volutpat rutrum, ante ipsum suscipit nunc, vel varius tortor nisl sit amet lorem. Nullam cursus tincidunt neque, eget adipiscing neque posuere at. Vestibulum viverra nisi vel dui sodales commodo.
+The image mosaic generator was the upper year thesis project for Engineering Science at the University of Toronto, supervised by Prof. Karan Singh of the Department of Computer Science.
 
-Ut quis porttitor eros. Suspendisse potenti. Etiam in nulla ornare risus interdum auctor ut at risus. Nullam tellus risus, condimentum sed ultrices quis, ullamcorper vel justo. Vestibulum blandit leo molestie lectus bibendum eget consequat diam commodo. Vivamus elementum aliquam justo id cursus. Sed aliquet elementum lacus eget pretium. Morbi facilisis aliquam libero, quis sollicitudin erat sollicitudin in. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin tellus eros, lobortis eleifend faucibus vitae, ultrices nec lectus. Mauris tellus lacus, suscipit a vulputate vel, aliquam vel lacus. Nullam et purus scelerisque justo semper consequat quis et orci. Curabitur sodales elit at dolor volutpat congue. Suspendisse eget neque nisi. Proin molestie dapibus augue, eu pharetra dolor mollis a.
+A image mosaic is a mosaic or patchwork of images that resemble a single image when seen from afar. The thesis work involved examining analytic techniques for constructing image mosaics and building a proof-of-concept generator to live-test the various algorithms that came out of the initial research.
+
+To be effective, the generator would need access to at least tens of thousands of images to choose from and an algorithm for selecting 
+
+The resulting generator was built on the Drupal platform as a sort of web service (currently locked from public use). It includes an 
