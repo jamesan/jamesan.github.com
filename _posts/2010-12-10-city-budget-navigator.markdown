@@ -30,4 +30,5 @@ This project has been effectively placed on hold. since mid-January.
 
 [^1]: [City Budget Navigator - Opendataday](http://www.opendataday.org/wiki/City_Budget_Navigator)
 [^2]: [City Budget Navigator data](https://spreadsheets.google.com/ccc?key=0AqAzr4q8YMGTdHlaeUs2d1pzTG9pQjc2bDZ5b0tPSnc&hl=en&authkey=CNTC_6QK#gid=1)
-*[RHoK]: Random Hacks of Kindness
+
+{% include abbrev.markdown %}

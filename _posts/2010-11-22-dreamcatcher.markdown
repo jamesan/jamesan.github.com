@@ -16,7 +16,7 @@ work:       [Design, Develop, Host]
 techs:      [CSS, Drupal, Markdown, Unity, XHTML]
 address:    http://gpc.jamesan.ca
 ---
-Dreamcatcher is a game prototype for the [Game Prototype Challenge, Version 1](http://gameprototypechallenge.com/v1) (GPCv1). The Game Prototype Challenge is a monthly, week-long, open challenge announced mainly through Twitter to developers to create a game prototype around two keywords or themes.[^1] The GPCv1 themes were dreams and collectibles.
+Dreamcatcher is a game prototype for the Game Prototype Challenge (GPC). The GPC is a monthly, week-long, open challenge announced mainly through Twitter to developers to create a game prototype around two keywords or themes.[^1] The GPCv1 themes were dreams and collectibles.
 
 This was a whimsical first attempt at a game prototype. My attempt (and first attempt at using most of the software tools and first time putting into practice concepts like shaders, collisions, and meshes) was the solo mode game released Nov 22. Subsequent improvements resulted in a game featuring a human versus AI competition to collect dreams the fastest while preventing the other from winning.
 
@@ -53,3 +53,7 @@ Website:
 - Slightly modified Abstract theme
 - Nginx + PHP 5 FastCGI + MySQL 5
 - CentOS 5 hosted by Slicehost
+
+[^1]: [Game Prototype Challenge](http://gameprototypechallenge.com/)
+
+{% include abbrev.markdown %}

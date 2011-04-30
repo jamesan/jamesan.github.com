@@ -23,3 +23,5 @@ Aside from the semantically improved markup and sparingly used CSS3, the site us
 Internally, the site uses the Liquid template system (Ruby) that comes with Jekyll and Markdown for most of its pages.
 
 [^1]: [Jekyll on Github](https://github.com/mojombo/jekyll/)
+
+{% include abbrev.markdown %}

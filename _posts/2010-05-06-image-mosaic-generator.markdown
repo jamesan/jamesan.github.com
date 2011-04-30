@@ -22,3 +22,7 @@ A image mosaic is a mosaic or patchwork of images that resemble a single image w
 To be effective, the generator would need access to at least tens of thousands of images to choose from and an algorithm for selecting 
 
 The resulting generator was built on the Drupal platform as a sort of web service (currently locked from public use). It includes an 
+
+**Not done!**
+
+{% include abbrev.markdown %}

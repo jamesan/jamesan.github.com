@@ -23,6 +23,8 @@ Drupal snapshots were mostly retrieved through the official CVS repositories. Fo
 
 [^1]: [Notepad2 homepage](http://www.flos-freeware.ch/notepad2.html)
 
+{% include abbrev.markdown %}
+
 <ul>
   <li><a href="http://drupal.org/commitlog/commit/2/e5e3d279e299b00890e86f8fa2f4b48ca1ce9948" rel="nofollow external">Patch #461938 by Kars-T, Garrett Albright, JamesAn, grendzy</a><br/> fixed inconsistent use of filter_xss_admin() on () an</li>
   <li><a href="http://drupal.org/commitlog/commit/2/6b4aa3080f37c589b7d7cb30fecae450f1ac3abc" rel="nofollow external">#480424 by JamesAn</a><br/> Update locale module to use drupal_static().</li>

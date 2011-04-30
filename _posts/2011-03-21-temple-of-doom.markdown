@@ -19,4 +19,5 @@ The initial (and unreleased) game design was a [3D tower building simulation](ht
 The second attempt is the current prototype, a 2D tower-building simulation built using HTML5's canvas element and Javascript/jQuery. The project is hosted by Google Code in a SVN repository.
 
 [^1]: [Game Prototype Challenge: About the Challenge](http://gameprototypechallenge.com/about)
-*[GPCv4]: Game Prototype Challenge, Version 4
+
+{% include abbrev.markdown %}
