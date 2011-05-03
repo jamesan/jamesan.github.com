@@ -15,8 +15,12 @@ work:       [Develop, Host]
 techs:      [Apache, Wordpress]
 address:    http://ralphthornton.org
 ---
-**Not done!**
+Ralph Thornton Centre is a local community centre in the South Riverdale community of Toronto with which I've been volunteering since about 2001 in varying capacities, mostly recently as a board member since 2006.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut augue dolor, elementum et feugiat a, mattis sed libero. Aliquam tortor nibh, tristique in varius non, suscipit id felis. Phasellus adipiscing, erat in volutpat rutrum, ante ipsum suscipit nunc, vel varius tortor nisl sit amet lorem. Nullam cursus tincidunt neque, eget adipiscing neque posuere at. Vestibulum viverra nisi vel dui sodales commodo.
+As part of a series of internal processes to revamp the Centre's approach to marketing, fundraising, and branding, it was agreed that the Centre's website needed to be redesigned from the ground-up. Although Drupal was a hopeful platform through a number of months and iterations of the new site, the Centre eventually settled on Wordpress as a platform far easier for non-technical staff to learn to use and maintain. Using Wordpress and a publicly available theme, the final development of the site was rather quick.
+
+The Centre has a vision of using the site to better engage visitors, such as with online tools to donate, apply to volunteer, and book physical space at the Centre, so Drupal may yet become the platform of choice.
+
+The website is currently hosted on my server running a LAMP stack.
 
 {% include abbrev.markdown %}

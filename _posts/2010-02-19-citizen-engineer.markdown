@@ -17,8 +17,6 @@ As part of the founding executive team, I designed and developed the original we
 
 The Drupal platform was selected to allow multiple administrators the ability to manage event listings, upload photos for past events, and eventually support an online forum to discuss policy matters from an engineering perspective. The forum was never implemented before the Drupal site was retired in favour of Wordpress.
 
-**Not done!**
-
 [^1]: [CitizenEngineer \| Getting Engineers into Policy](http://citizenengineer.skule.ca/)
 
 {% include abbrev.markdown %}

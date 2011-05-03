@@ -12,11 +12,17 @@ main_format: png
 status:     In progress
 intent:     Academic
 work:       [Develop]
-techs:      [Bazaar, CSS, MySQL, Pylons, Python, SQLite, XHTML]
-address:    http://launchpad.net/tagin
+techs:      [Bazaar, CSS, Pylons, Python, SQLite, XHTML]
+address:    https://code.launchpad.net/~james-jamesan/tagin/devel
 ---
-**Not done!**
+In brief, "tagin! is an open source, location tagging engine that may be used to create indoor location-based services (LBS) and applications. Developers can use tagin! to manage points of interest (POI) and digital signs making them available to their applications on WiFi- and Bluetooth-capable devices".[^1]
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut augue dolor, elementum et feugiat a, mattis sed libero. Aliquam tortor nibh, tristique in varius non, suscipit id felis. Phasellus adipiscing, erat in volutpat rutrum, ante ipsum suscipit nunc, vel varius tortor nisl sit amet lorem. Nullam cursus tincidunt neque, eget adipiscing neque posuere at. Vestibulum viverra nisi vel dui sodales commodo.
+My contribution to tagin! was to implement parts of the [RESTful API spec](http://wiki.scyp.idrc.ocad.ca/w/Tagin!_RESTful_API), as part of an upper year independent study course with the Adaptive Technology Resource Centre at the University of Toronto (ATRC). After my involvement with tagin!, the ATRC moved to OCAD University and renamed as the Inclusive Design Research Centre (IDRC).
+
+The RESTful API specifies how a client can interact with the server that stores location tags and location WiFi fingerprints. This section uses Pylons, a Python-based open source web application framework that is strongly influenced by Ruby on Rails, having some of its components as ports of Rails features and heavily adopting the model-view-controller pattern.
+
+During my work with tagin!, SQLite was used to store the data (i.e. tags and fingerprints), but there was a desire to migrate to a standalone database like MySQL for the server side.
+
+[^1]: [tagin! «  Tag your location!](http://scyp.idrc.ocad.ca/projects/tagin)
 
 {% include abbrev.markdown %}
