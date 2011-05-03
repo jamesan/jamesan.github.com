@@ -11,8 +11,8 @@ main_format: png
 techs:      [C++, Java, Subversion, T-SQL]
 start_date: 2008-05-05
 address:    http://mapleridgecapital.com
-role:       assistant research analyst
-manager:    tom barford
+role:       Assistant Research Analyst
+manager:    Tom Barford
 ---
 Founded in 1998, "Mapleridge Capital Corporation is an alternative investment management company with an 11-year track record of providing investment advice."[^1] I joined Mapleridge Capital for a 16-month internship as part of the Professional Experience Year (PEY) Internship Program, the undergraduate paid internship program at the University of Toronto.
 

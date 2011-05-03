@@ -12,8 +12,8 @@ gallery_formats: [png, png, png, png, png]
 techs:      [VBA]
 start_date: 2006-05-08
 address:    http://bmo.com/nesbittburns
-role:       computer programmer
-manager:    paul adair
+role:       Computer Programmer
+manager:    Paul Adair
 ---
 **Not done!**
 
