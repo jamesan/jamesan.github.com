@@ -69,6 +69,51 @@
                #000 0 2px 1px;
 }
 
+#resume table {
+  font-family: "Vegur";
+  font-weight: 300;
+  width: 100%;
+}
+
+#resume table.roles td {
+  padding-bottom: 10px;
+}
+
+#resume table.roles td:first-child {
+  vertical-align: top;
+}
+
+#resume table.roles td:nth-child(-n+2) {
+  font-size: 16px;
+}
+
+#resume table.roles td:nth-child(3) {
+  font-family: Georgia, serif;
+}
+
+#resume table.skills th,
+#resume table.skills td {
+  font-size: 16px;
+  text-align: left;
+}
+
+#resume table.skills th {
+  font-weight: inherit;
+  text-decoration: underline;
+}
+
+#resume table.skills td.proficient {
+  font-weight: 700;
+}
+
+#resume table.skills td.competent {
+  font-weight: inherit;
+}
+
+#resume table.skills td.novice {
+  font-weight: 100;
+}
+
 #contact form input,
 #contact form img,
 #contact form textarea {
