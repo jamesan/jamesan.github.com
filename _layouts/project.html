@@ -5,7 +5,7 @@ layout: base
     <h1>{{ page.title }}</h1>
     {{ content }}
   </article>
-  
+
   <aside class="boxFlex2 vbox glance">
     <div class="back">
       <a href="/projects">Back to portfolio</a>
@@ -42,7 +42,7 @@ layout: base
       {% endfor %}
     </div>
     <div class="details">
-      {% if page.status == "In progress" %}Unfinished{% else %}Finished: {{ page.date | date: "%b %d %Y" }}{% endif %}<br/>
+      {% if page.status == "In progress" %}Unfinished{% else %}Finished{% endif %}<br/>
       {% if page.address %}URL: <a href="{{ page.address }}" rel="external nofollow">{{ page.address }}</a>{% else %}No URL available.{% endif %}
     </div>
   </aside>
