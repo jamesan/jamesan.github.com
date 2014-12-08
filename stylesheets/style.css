@@ -12,14 +12,14 @@ p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em,
 img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, hr,
 dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figure, figcaption, hgroup,
+article, aside, canvas, details, figure, figcaption,
 menu, footer, header, nav, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
 }
 
-article, aside, canvas, figure, figure img, figcaption, hgroup,
+article, aside, canvas, figure, figure img, figcaption,
 footer, header, nav, section, audio, video {
   display: block;
 }
@@ -109,7 +109,7 @@ body, textarea, input {
 /* Selection colours (easy to forget) */
 
 ::-moz-selection   {background: rgb(255,255,158);}
-img::-moz-selection  {background: transparent;}
+  img::-moz-selection  {background: transparent;}
 body {-webkit-tap-highlight-color: rgb(255,255,158);}
 
 
@@ -149,20 +149,20 @@ body > footer {
   text-shadow: 1px 1px 1px #aaa;
 }
 
-body > header hgroup {
+body > header #title {
   min-width: 300px;
 }
 
-body > header hgroup h1 {
+body > header #title h1 {
   font-weight: bold;
 }
 
-body > header hgroup h2,
-body > header hgroup h3 {
+body > header #title h2,
+body > header #title h3 {
   font-weight: 100;
 }
 
-body > header hgroup h2 span {
+body > header #title h2 span {
   color: #F7931E; /* Orange */
 }
 
